@@ -12,6 +12,8 @@
 		3793BB4F2AF5257A0042C94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3793BB4E2AF5257A0042C94D /* Assets.xcassets */; };
 		3793BB522AF5257A0042C94D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3793BB512AF5257A0042C94D /* Preview Assets.xcassets */; };
 		3793BB592AF529C50042C94D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3793BB582AF529C50042C94D /* README.md */; };
+		3793BB5B2AF532DF0042C94D /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793BB5A2AF532DF0042C94D /* SecondView.swift */; };
+		3793BB5D2AF5AF930042C94D /* ReversiRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793BB5C2AF5AF920042C94D /* ReversiRotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		3793BB4E2AF5257A0042C94D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3793BB512AF5257A0042C94D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3793BB582AF529C50042C94D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3793BB5A2AF532DF0042C94D /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		3793BB5C2AF5AF920042C94D /* ReversiRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversiRotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				3793BB4A2AF525730042C94D /* AnimationTestApp.swift */,
 				3793BB4C2AF525730042C94D /* ContentView.swift */,
+				3793BB5A2AF532DF0042C94D /* SecondView.swift */,
+				3793BB5C2AF5AF920042C94D /* ReversiRotation.swift */,
 				3793BB4E2AF5257A0042C94D /* Assets.xcassets */,
 				3793BB502AF5257A0042C94D /* Preview Content */,
 			);
@@ -141,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3793BB5D2AF5AF930042C94D /* ReversiRotation.swift in Sources */,
+				3793BB5B2AF532DF0042C94D /* SecondView.swift in Sources */,
 				3793BB4D2AF525730042C94D /* ContentView.swift in Sources */,
 				3793BB4B2AF525730042C94D /* AnimationTestApp.swift in Sources */,
 			);
